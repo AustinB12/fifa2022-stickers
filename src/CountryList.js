@@ -15,7 +15,7 @@ const CountryList = () => {
       .then((data) => {
         setCountries(data.data);
       });
-  }, []);
+  }, [url]);
 
   const saveStickers = async () => {
     console.log(countries);
