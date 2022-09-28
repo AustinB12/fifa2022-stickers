@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "name": "Argentina",
+      "stickers": [
+        { "spot": 1, "value": false },
+        { "spot": 2, "value": false },
+        { "spot": 3, "value": false },
+        { "spot": 4, "value": false },
+        { "spot": 5, "value": false },
+        { "spot": 6, "value": false },
+        { "spot": 7, "value": false },
+        { "spot": 8, "value": false },
+        { "spot": 9, "value": false },
+        { "spot": 10, "value": false },
+        { "spot": 11, "value": false },
+        { "spot": 12, "value": false },
+        { "spot": 13, "value": false },
+        { "spot": 14, "value": false },
+        { "spot": 15, "value": false },
+        { "spot": 16, "value": false },
+        { "spot": 17, "value": false },
+        { "spot": 18, "value": false },
+        { "spot": 19, "value": false },
+        { "spot": 20, "value": false }
+      ]
+    },
+    {
+      "name": "Australia",
+      "stickers": [
+        { "spot": 1, "value": false },
+        { "spot": 2, "value": false },
+        { "spot": 3, "value": false },
+        { "spot": 4, "value": false },
+        { "spot": 5, "value": false },
+        { "spot": 6, "value": false },
+        { "spot": 7, "value": false },
+        { "spot": 8, "value": false },
+        { "spot": 9, "value": false },
+        { "spot": 10, "value": false },
+        { "spot": 11, "value": false },
+        { "spot": 12, "value": false },
+        { "spot": 13, "value": false },
+        { "spot": 14, "value": false },
+        { "spot": 15, "value": false },
+        { "spot": 16, "value": false },
+        { "spot": 17, "value": false },
+        { "spot": 18, "value": false },
+        { "spot": 19, "value": false },
+        { "spot": 20, "value": false }
+      ]
+    }
+  ]
+}
