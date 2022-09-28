@@ -4,8 +4,13 @@ import { Country } from "./Country";
 const CountryList = () => {
   const [countries, setCountries] = useState([]);
 
+  const url =
+    process.env.NODE_ENV === "production"
+      ? "https://192.168.1.8:7777"
+      : "http://localhost:7777/";
+
   useEffect(() => {
-    fetch("http://localhost:7777/")
+    fetch(url)
       .then((response) => response.json())
       .then((data) => {
         setCountries(data.data);
@@ -14,7 +19,7 @@ const CountryList = () => {
 
   const saveStickers = async () => {
     console.log(countries);
-    const response = await fetch("http://localhost:7777/", {
+    const response = await fetch(url, {
       method: "POST",
       headers: {
         Accept: "application.json",
