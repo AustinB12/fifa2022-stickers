@@ -6,7 +6,7 @@ const CountryList = () => {
 
   const url =
     process.env.NODE_ENV === "production"
-      ? "https://192.168.1.8:7777"
+      ? "http://192.168.1.8:7777"
       : "http://localhost:7777/";
 
   useEffect(() => {
