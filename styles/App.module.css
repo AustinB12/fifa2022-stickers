@@ -47,6 +47,6 @@
   justify-content: center;
 }
 
-label {
+.stickerLabel {
   font-size: calc(12px + 0.5vw);
 }
